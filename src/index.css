@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Space Grotesk", ui-serif, Georgia, serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 1rem;
+  /* Light mode - couleurs claires */
+  --background: #E0E1DD;
+  --foreground: #0D1B2A;
+  --card: #ffffff;
+  --card-foreground: #0D1B2A;
+  --popover: #ffffff;
+  --popover-foreground: #0D1B2A;
+  --primary: #FF6B35;
+  --primary-foreground: #ffffff;
+  --secondary: #1B263B;
+  --secondary-foreground: #E0E1DD;
+  --muted: #f8f9fa;
+  --muted-foreground: #6c757d;
+  --accent: #FF6B35;
+  --accent-foreground: #ffffff;
+  --destructive: #dc3545;
+  --border: #dee2e6;
+  --input: #f8f9fa;
+  --ring: #FF6B35;
+  --chart-1: #FF6B35;
+  --chart-2: #1B263B;
+  --chart-3: #0D1B2A;
+  --chart-4: #6c757d;
+  --chart-5: #E0E1DD;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #0D1B2A;
+  --sidebar-primary: #FF6B35;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f8f9fa;
+  --sidebar-accent-foreground: #0D1B2A;
+  --sidebar-border: #dee2e6;
+  --sidebar-ring: #FF6B35;
+}
+
+.dark {
+  /* Dark mode - couleurs sombres selon la palette */
+  --background: #0D1B2A;
+  --foreground: #E0E1DD;
+  --card: #1B263B;
+  --card-foreground: #E0E1DD;
+  --popover: #1B263B;
+  --popover-foreground: #E0E1DD;
+  --primary: #FF6B35;
+  --primary-foreground: #0D1B2A;
+  --secondary: #2d3748;
+  --secondary-foreground: #E0E1DD;
+  --muted: #1a202c;
+  --muted-foreground: #a0aec0;
+  --accent: #FF6B35;
+  --accent-foreground: #0D1B2A;
+  --destructive: #e53e3e;
+  --border: #2d3748;
+  --input: #2d3748;
+  --ring: #FF6B35;
+  --chart-1: #FF6B35;
+  --chart-2: #E0E1DD;
+  --chart-3: #1B263B;
+  --chart-4: #a0aec0;
+  --chart-5: #2d3748;
+  --sidebar: #1B263B;
+  --sidebar-foreground: #E0E1DD;
+  --sidebar-primary: #FF6B35;
+  --sidebar-primary-foreground: #0D1B2A;
+  --sidebar-accent: #2d3748;
+  --sidebar-accent-foreground: #E0E1DD;
+  --sidebar-border: #2d3748;
+  --sidebar-ring: #FF6B35;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+  
+  .glow-primary {
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.3);
+  }
+  
+  .glow-primary-strong {
+    box-shadow: 0 0 30px rgba(255, 107, 53, 0.5), 0 0 60px rgba(255, 107, 53, 0.3);
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 10px rgba(255, 107, 53, 0.5);
+  }
+  
+  .gradient-text {
+    background: linear-gradient(135deg, #FF6B35 0%, #ff8f65 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark .card-hover:hover {
+    box-shadow: 0 20px 40px rgba(255, 107, 53, 0.2);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 107, 53, 0.5), 0 0 60px rgba(255, 107, 53, 0.3);
+  }
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+  opacity: 0.8;
+}
+
+/* Smooth transitions for theme switching */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
