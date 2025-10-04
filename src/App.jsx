@@ -124,39 +124,30 @@ function App() {
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">
                   About Me
                 </h2>
+                    <div className="mb-10 space-y-6">
+                      {[
+                        "El Mehdi El Adnani – Full-Stack Developer | Java • Spring • AI",
+                        "Graduating Software Engineer bridging backend architecture and intelligent features. I build scalable microservices (backend & DevOps) and orchestrate AI agent workflows using CrewAI and n8n for intelligent automation.",
+                        "My approach: Clean code, scalable design, and features that users actually love.",
+                        "Open to opportunities where I can contribute to both technical excellence and product innovation."
+                      ].map((paragraph, index) => (
+                        <BlurText
+                          key={index}
+                          text={paragraph}
+                          delay={150 + (index * 50)}
+                          animateBy="words"
+                          direction="top"
+                          className="text-base md:text-lg leading-relaxed text-gray-300"
+                        />
+                      ))}
+                    </div>
+                                  <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
 
-                <BlurText
-                  text="I’m Faris Edrik Prayoga, a full-stack developer passionate about building modern, high-performance applications with an intuitive user experience. I enjoy working with the latest technologies like Artificial Intelligence, Machine Learning, and cloud-based development, blending creativity with precision to deliver impactful solutions. With over three years of experience and more than 20 completed projects, I’m committed to helping users and businesses grow in the digital era through functional, aesthetic, and scalable digital products."
-                  delay={150}
-                  animateBy="words"
-                  direction="top"
-                  className="text-base md:text-lg leading-relaxed mb-10 text-gray-300"
-                />
-
-                <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
-                  <div>
-                    <h1 className="text-3xl md:text-4xl mb-1">
-                      20<span className="text-violet-500">+</span>
-                    </h1>
-                    <p>Project Finished</p>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl md:text-4xl mb-1">
-                      3<span className="text-violet-500">+</span>
-                    </h1>
-                    <p>Years of Experience</p>
-                  </div>
-                  <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
-                    <h1 className="text-3xl md:text-4xl mb-1">
-                      3.81<span className="text-violet-500">/4.00</span>
-                    </h1>
-                    <p>GPA</p>
-                  </div>
                 </div>
 
 
                 <ShinyText
-                  text="Working with heart, creating with mind."
+                  text="From ideas to code, I make technology meaningful."
                   disabled={false}
                   speed={3}
                   className="text-sm md:text-base text-violet-400"
