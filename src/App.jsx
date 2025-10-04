@@ -4,7 +4,7 @@ import ShinyText from "./components/ShinyText/ShinyText";
 import BlurText from "./components/BlurText/BlurText";
 import ScrambledText from "./components/ScrambledText/ScrambledText";
 import SplitText from "./components/SplitText/SplitText";
-import Lanyard from "./components/Lanyard/Lanyard";
+import TimeLine from "./components/TimeLine/TimeLine";
 import GlassIcons from "./components/GlassIcons/GlassIcons";
 import { listTools, listProyek } from "./data";
 import ChromaGrid from "./components/ChromaGrid/ChromaGrid";
@@ -154,13 +154,14 @@ function App() {
                   speed={3}
                   className="text-sm md:text-base text-violet-400"
                 />
-
- 
-
-
               </div>
             </div>
+            {/* ✅ Colonne droite : TimeLine */}
+            <div className="basis-full md:basis-5/12 flex justify-center items-center">
+              <TimeLine />
+            </div>
           </div>
+          
 
         </div>
         <div className="tools mt-32">
