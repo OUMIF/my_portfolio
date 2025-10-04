@@ -13,6 +13,8 @@ import Aurora from "./components/Aurora/Aurora";
 import AOS from 'aos';
 import ChatRoom from "./components/ChatRoom";
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import { Timeline, TimelineItem, TimelineConnector, TimelineHeader, TimelineIcon, TimelineBody, Typography } from "@material-tailwind/react";
+
 // ..
 AOS.init();
 
@@ -152,11 +154,12 @@ function App() {
                   speed={3}
                   className="text-sm md:text-base text-violet-400"
                 />
+
+ 
+
+
               </div>
             </div>
-
-            {/* Kolom kanan */}
-
           </div>
 
         </div>
