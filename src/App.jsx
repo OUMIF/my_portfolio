@@ -156,9 +156,7 @@ function App() {
             </div>
 
             {/* Kolom kanan */}
-            <div className="basis-full md:basis-5/12 pl-0 md:pl-8 overflow-hidden max-w-full flex justify-center ">
-              <Lanyard position={[0, 0, 15]} gravity={[0, -40, 0]} />
-            </div>
+
           </div>
 
         </div>
