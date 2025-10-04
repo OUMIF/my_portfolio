@@ -77,8 +77,19 @@ function App() {
         <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             
-            <h1 className="text-5xl font-bold mb-6">
-              <ShinyText text="Hi I'm EL ADNANI EL Mehdi" disabled={false} speed={3} className='custom-class' />
+            <h1 className="text-5xl font-bold mb-6 flex flex-col">
+              <ShinyText 
+                text="Hi I'm EL ADNANI" 
+                disabled={false} 
+                speed={3}
+                className='custom-class' 
+              />
+              <ShinyText 
+                text="EL Mehdi" 
+                disabled={false} 
+                speed={3}
+                className='custom-class mt-2' 
+              />
             </h1>
             <BlurText
               text="A Software Engineer and backend-focused application and web developer with a strong passion for AI research, dedicated to building high-performance, intelligent digital solutions that are both innovative and user-centric."
