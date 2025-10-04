@@ -5,163 +5,68 @@ const Image = {
 };
 
 export default Image;
+import Tools1  from "/assets/tools/vscode.png";      
+import Tools2  from "/assets/tools/reactjs.png";    
+import Tools5  from "/assets/tools/bootstrap.png";  
+import Tools6  from "/assets/tools/js.png";         
+import Tools7  from "/assets/tools/nodejs.png";     
+import Tools8  from "/assets/tools/github.png";     
+import Tools14 from "/assets/tools/html.png";       
+import Tools15 from "/assets/tools/css.png";        
+import Tools17 from "/assets/tools/php.png";        
+import Tools19 from "/assets/tools/mysql.png";      
+import Tools20 from "/assets/tools/Java.png";       
+import Tools21 from "/assets/tools/intelij.png";   
+import Tools22 from "/assets/tools/springboot.png";
+import Tools23 from "/assets/tools/Python.png";    
+import Tools24 from "/assets/tools/N8n.png";        
+import Tools25 from "/assets/tools/crew.png";       
+import Tools26 from "/assets/tools/docker.png";     
+import Tools27 from "/assets/tools/C.png";          
+import Tools28 from "/assets/tools/Csharp.png";     
+import Tools29 from "/assets/tools/fastApi.png";    
+import Tools30 from "/assets/tools/Laravel.png";    
+import Tools31 from "/assets/tools/oracle19c.png";  
+import Tools32 from "/assets/tools/powerAmc.png";  
 
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
-import Tools10 from "/assets/tools/canva.png";
-import Tools11 from "/assets/tools/figma.png";
-import Tools12 from "/assets/tools/kotlin.png";
-import Tools13 from "/assets/tools/firebase.png";
-import Tools14 from "/assets/tools/html.png";
-import Tools15 from "/assets/tools/css.png";
-import Tools16 from "/assets/tools/ts.png";
-import Tools17 from "/assets/tools/php.png";
-import Tools18 from "/assets/tools/vite.png";
-import Tools19 from "/assets/tools/mysql.png";
 
-
+// ===================== LIST TOOLS =====================
+// ===================== LIST TOOLS =====================
 export const listTools = [
-  {
-    id: 1,
-    gambar: Tools1,
-    nama: "Visual Studio Code",
-    ket: "Code Editor",
-    dad: "100",
-  },
-  {
-    id: 2,
-    gambar: Tools2,
-    nama: "React JS",
-    ket: "Framework",
-    dad: "200",
-  },
-  {
-    id: 3,
-    gambar: Tools3,
-    nama: "Next JS",
-    ket: "Framework",
-    dad: "300",
-  },
-  {
-    id: 4,
-    gambar: Tools4,
-    nama: "Tailwind CSS",
-    ket: "Framework",
-    dad: "400",
-  },
-  {
-    id: 5,
-    gambar: Tools5,
-    nama: "Bootstrap",
-    ket: "Framework",
-    dad: "500",
-  },
-  {
-    id: 6,
-    gambar: Tools6,
-    nama: "Javascript",
-    ket: "Language",
-    dad: "600",
-  },
-  {
-    id: 7,
-    gambar: Tools7,
-    nama: "Node JS",
-    ket: "Javascript Runtime",
-    dad: "700",
-  },
-  {
-    id: 8,
-    gambar: Tools8,
-    nama: "Github",
-    ket: "Repository",
-    dad: "800",
-  },
-  {
-    id: 9,
-    gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
-    dad: "900",
-  },
-  {
-    id: 10,
-    gambar: Tools10,
-    nama: "Canva",
-    ket: "Design App",
-    dad: "1000",
-  },
-  {
-    id: 11,
-    gambar: Tools11,
-    nama: "Figma",
-    ket: "Design App",
-    dad: "1100",
-  },
-  {
-    id: 12,
-    gambar: Tools12,
-    nama: "Kotlin",
-    ket: "Language",
-    dad: "1200",
-  },
-  {
-    id: 13,
-    gambar: Tools13,
-    nama: "Firebase",
-    ket: "Framework",
-    dad: "1300",
-  },
-  {
-    id: 14,
-    gambar: Tools14,
-    nama: "HTML",
-    ket: "Language",
-    dad: "1400",
-  },
-  {
-    id: 15,
-    gambar: Tools15,
-    nama: "CSS",
-    ket: "Language",
-    dad: "1500",
-  },
-  {
-    id: 16,
-    gambar: Tools16,
-    nama: "TypeScript",
-    ket: "Language",
-    dad: "1600",
-  },
-  {
-    id: 17,
-    gambar: Tools17,
-    nama: "PHP",
-    ket: "Language",
-    dad: "1700",
-  },
-  {
-    id: 18,
-    gambar: Tools18,
-    nama: "Vite",
-    ket: "Framework",
-    dad: "1800",
-  },
-  {
-    id: 19,
-    gambar: Tools19,
-    nama: "MySql",
-    ket: "Framework",
-    dad: "1900",
-  },
+  // ===================== LANGUAGES =====================
+  { id: 1,  gambar: Tools6,  nama: "JavaScript",  ket: "Language", dad: "100" },
+  { id: 2,  gambar: Tools20, nama: "Java",        ket: "Language", dad: "200" },
+  { id: 3,  gambar: Tools23, nama: "Python",      ket: "Language", dad: "300" },
+  { id: 4,  gambar: Tools17, nama: "PHP",         ket: "Language", dad: "400" },
+  { id: 5,  gambar: Tools14, nama: "HTML",        ket: "Language", dad: "500" },
+  { id: 6,  gambar: Tools15, nama: "CSS",         ket: "Language", dad: "600" },
+  { id: 7, gambar: Tools27, nama: "C", ket: "Language", dad: "700" },
+  { id: 8, gambar: Tools28, nama: "C#", ket: "Language", dad: "800" },
+
+  // ===================== FRAMEWORKS / LIBRARIES =====================
+  { id: 9,  gambar: Tools2,  nama: "React JS",    ket: "Framework", dad: "900" },
+  { id: 10, gambar: Tools5,  nama: "Bootstrap",   ket: "Framework", dad: "1000" },
+  { id: 11, gambar: Tools7,  nama: "Node JS",     ket: "Javascript Runtime", dad: "1100" },
+  { id: 12, gambar: Tools22, nama: "Spring Boot", ket: "Framework", dad: "1200" },
+  { id: 13, gambar: Tools30, nama: "Laravel", ket: "Framework", dad: "1300" },
+  { id: 14, gambar: Tools29, nama: "FastAPI", ket: "Framework", dad: "1400" },
+
+  // ===================== TOOLS / PLATFORMS =====================
+  { id: 15, gambar: Tools1,  nama: "Visual Studio Code", ket: "Code Editor", dad: "1500" },
+  { id: 16, gambar: Tools21, nama: "IntelliJ IDEA",     ket: "Code Editor", dad: "1600" },
+  { id: 17, gambar: Tools8,  nama: "GitHub",            ket: "Repository", dad: "1700" },
+  { id: 18, gambar: Tools26, nama: "Docker",            ket: "Platform",   dad: "1800" },
+  { id: 19, gambar: Tools32, nama: "PowerAMC",          ket: "Tool",       dad: "1900" },
+
+  // ===================== DATABASES =====================
+  { id: 20, gambar: Tools19, nama: "MySQL",      ket: "Database", dad: "2000" },
+  { id: 21, gambar: Tools31, nama: "Oracle 19c", ket: "Database", dad: "2100" },
+
+  // ===================== AI & AUTOMATION =====================
+  { id: 22, gambar: Tools25, nama: "Crew AI", ket: "AI Tool",   dad: "2200" },
+  { id: 23, gambar: Tools24, nama: "n8n",     ket: "Automation", dad: "2300" },
 ];
+
 
 import Proyek1 from "/assets/proyek/proyek1.jpg";
 import Proyek2 from "/assets/proyek/proyek2.jpg";
