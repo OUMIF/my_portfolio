@@ -114,7 +114,8 @@ export const listProyek = [
     title: "CrewAI Database Automation",
     subtitle: "Multi-agent system for automated database management...",
     fullDescription: "CrewAI Database Automation is a multi-agent AI system that automates complex database management workflows. The project features specialized AI agents working collaboratively to handle web scraping, Oracle database operations, SQL script generation, and performance optimization. This intelligent system delivers automated, scalable database solutions while significantly reducing manual work and human error.",
-    gradient: "linear-gradient(180deg, #8c5858ff, #be7373ff)",
+    borderColor: "#af3067ff",
+    gradient: "linear-gradient(180deg, #8c5858ff, #823a3aff)",
     url: "https://github.com/OUMIF/CrewAI-Database-Automation",
     dad: "400",
   },
@@ -135,9 +136,9 @@ export const listProyek = [
     title: "Spring Boot WebSocket Chat App",
     subtitle: "Real-time chat platform with WebSocket, STOMP, and JWT security...",
     fullDescription: "Spring Boot WebSocket Chat App is a secure real-time messaging platform built with Spring Boot, WebSocket (STOMP/SockJS), and JWT-based authentication. It enables instant communication, user presence notifications, and supports multiple concurrent users through reliable and scalable WebSocket connections. ",
-    borderColor: "#0bf50bff",
+    borderColor: "#187918ff",
     gradient: "linear-gradient(145deg, #126e09ff, #000)",
-    url: "https://github.com/yourusername/springboot-websocket-chat",
+    url: "https://github.com/OUMIF/Spring_Security_Chat_Platform",
     dad: "300",
   }
 
