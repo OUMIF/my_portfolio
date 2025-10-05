@@ -71,9 +71,10 @@ export const listTools = [
 import Proyek1 from "/assets/proyek/proyek1.jpg";
 import Proyek2 from "/assets/proyek/proyek2.jpg";
 import Proyek3 from "/assets/proyek/proyek3.jpg";
-import Proyek4 from "/assets/proyek/proyek4.jpg";
-import Proyek5 from "/assets/proyek/proyek5.jpg";
+import Proyek44 from "/assets/proyek/proyek44.jpg";
+import Proyek55 from "/assets/proyek/proyek55.jpg";
 import Proyek6 from "/assets/proyek/proyek6.jpg";
+import Proyek66 from "/assets/proyek/proyek66.jpg";
 
 export const listProyek = [
   {
@@ -111,7 +112,7 @@ export const listProyek = [
   },
   {
     id: 4,
-    image: Proyek4,
+    image: Proyek44,
     title: "CrewAI Database Automation",
     subtitle: "Multi-agent system for automated database management...",
     fullDescription: "CrewAI Database Automation is a multi-agent AI system that automates complex database management workflows. The project features specialized AI agents working collaboratively to handle web scraping, Oracle database operations, SQL script generation, and performance optimization. This intelligent system delivers automated, scalable database solutions while significantly reducing manual work and human error.",
@@ -121,7 +122,7 @@ export const listProyek = [
   },
     {
     id: 5,
-    image: Proyek5,
+    image: Proyek55,
     title: "n8n Ai Medical chatbot ",
     subtitle: "Local AI conversational agent workflow with PostgreSQL & PGVector...",
     fullDescription: "n8n AI Medical Chatbot is a privacy-focused conversational agent running entirely on local infrastructure. Built with Ollama for natural language processing and PostgreSQL with PGVector for semantic memory, it delivers context-aware medical responses through intelligent embeddings. This self-hosted solution combines n8n workflow automation with local AI models to create a secure medical assistant prototype that understands patient queries while keeping all data on-premise.",
@@ -132,7 +133,7 @@ export const listProyek = [
   },
   {
     id: 6,
-    image: Proyek6, // Remplace par ton import d'image
+    image: Proyek66, // Remplace par ton import d'image
     title: "Spring Boot WebSocket Chat App",
     subtitle: "Real-time chat platform with WebSocket, STOMP, and JWT security...",
     fullDescription: "Spring Boot WebSocket Chat App is a secure real-time messaging platform built with Spring Boot, WebSocket (STOMP/SockJS), and JWT-based authentication. It enables instant communication, user presence notifications, and supports multiple concurrent users through reliable and scalable WebSocket connections. ",
