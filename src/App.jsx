@@ -120,7 +120,7 @@ function App() {
               handle="farisedrikp"
               status="Online"
               contactText="Contact Me"
-              avatarUrl="./assets/photorm.png"
+              avatarUrl="./assets/newLanyard.png"
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
