@@ -21,9 +21,17 @@ const Footer = () => {
 
         {/* Ikon Sosmed - di tengah di mobile */}
         <div className="flex gap-3 order-2 md:order-none">
-          <a href="https://github.com/rissss21"><i className="ri-github-fill ri-2x"></i></a>
-          <a href="https://www.instagram.com/farisedrikprayoga/"><i className="ri-instagram-fill ri-2x"></i></a>
-          <a href="https://www.youtube.com/@FarisEdrikPrayoga"><i className="ri-youtube-fill ri-2x"></i></a>
+          <a href="https://github.com/OUMIF" target="_blank" rel="noopener noreferrer">
+            <i className="ri-github-fill ri-2x"></i>
+          </a>
+          
+          <a href="https://www.linkedin.com/in/el-mehdi-el-adnani-a4566425a/" target="_blank" rel="noopener noreferrer">
+            <i className="ri-linkedin-box-fill ri-2x"></i>
+          </a>
+          
+          <a href="https://leetcode.com/u/oumif/" target="_blank" rel="noopener noreferrer">
+            <i className="ri-code-box-fill ri-2x"></i>
+          </a>
         </div>
 
         {/* Dock - paling bawah di mobile */}
