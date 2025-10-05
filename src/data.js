@@ -103,7 +103,7 @@ export const listProyek = [
     image: Proyek3,
     title: "XPLOR",
     subtitle: "Web app for managing children's activity registrations...",
-    fullDescription: "Xplore is a web application designed for a personal development company to manage children's activity registrations. Built with a full-stack approach, it allows parents to register their children for workshops (coding, AI, robotics, chess, chemistry, biology) and choose flexible subscription packs. The platform provides real-time scheduling, automated pricing with discounts, notifications, and personalized dashboards for admins, parents, and instructors, ensuring seamless management of registrations, payments, and activity planning.",
+    fullDescription: "Xplore is a full-stack web platform built for a personal development company to manage children's activity registrations. It enables parents to register their children for workshops (coding, AI, robotics, etc.) with flexible subscription plans. The system automates scheduling, pricing, and notifications, while providing dedicated dashboards for admins, parents, and instructors — ensuring efficient management of activities, payments, and planning.",
     borderColor: "#9DBE99", 
     gradient: "linear-gradient(145deg, #E8F0E8, #000)", // Dégradé de verts très pâles
     url: "https://github.com/KenzaAEK/app_pedagogique_XPLOR",
@@ -132,13 +132,14 @@ export const listProyek = [
   },
   {
     id: 6,
-    image: Proyek6,
-    title: "Coffee Shop Website",
-    subtitle: "A fully functional website designed for a coffee shop, enabling...",
-    fullDescription:"A fully functional website designed for a coffee shop, enabling customers to explore the menu, learn about the shop’s story, and place orders online. The project focused on creating an attractive and modern interface, integrating responsive design for mobile and desktop, and ensuring smooth navigation for users. This website not only improved customer experience but also supported the coffee shop’s digital presence and business growth.",
-    borderColor: "#10B981",
-    gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
-    dad: "600",
-  },
+    image: Proyek6, // Remplace par ton import d'image
+    title: "Spring Boot WebSocket Chat App",
+    subtitle: "Real-time chat platform with WebSocket, STOMP, and JWT security...",
+    fullDescription: "Spring Boot WebSocket Chat App is a secure real-time messaging platform built with Spring Boot, WebSocket (STOMP/SockJS), and JWT-based authentication. It enables instant communication, user presence notifications, and supports multiple concurrent users through reliable and scalable WebSocket connections. ",
+    borderColor: "#0bf50bff",
+    gradient: "linear-gradient(145deg, #126e09ff, #000)",
+    url: "https://github.com/yourusername/springboot-websocket-chat",
+    dad: "300",
+  }
+
 ];
