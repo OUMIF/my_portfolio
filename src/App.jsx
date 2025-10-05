@@ -84,9 +84,9 @@ const handleSubmit = (e) => {
   setStatus('');
 
   // Remplacez par vos identifiants EmailJS
-  const serviceID = 'service_wsjwg65';
-  const templateID = 'template_3qprftk';
-  const publicKey = 'mij7Jx2qp7dots3jT';
+  const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+  const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
   const templateParams = {
     from_name: formData.name,
