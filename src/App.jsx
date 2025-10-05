@@ -103,7 +103,14 @@ function App() {
                 download="ElAdnani_ELMEhdi_CV.pdf" 
                 className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
               >
-                <ShinyText text="Download CV" disabled={false} speed={3} className="custom-class" />
+                <ShinyText text="Download CV (English)" disabled={false} speed={3} className="custom-class" />
+              </a>
+                            <a 
+                href="./assets/cv_fr.pdf" 
+                download="ElAdnani_ELMEhdi_CV.pdf" 
+                className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
+              >
+                <ShinyText text="Télécharger CV (Français)" disabled={false} speed={3} className="custom-class" />
               </a>
 
               <a href="#project" className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors">
