@@ -4,7 +4,7 @@ import ShinyText from "./components/ShinyText/ShinyText";
 import BlurText from "./components/BlurText/BlurText";
 import ScrambledText from "./components/ScrambledText/ScrambledText";
 import SplitText from "./components/SplitText/SplitText";
-import TimeLine from "./components/TimeLine/TimeLine";
+import TimeLine from "./components/Timeline/TimeLine";
 import GlassIcons from "./components/GlassIcons/GlassIcons";
 import { listTools, listProyek } from "./data";
 import ChromaGrid from "./components/ChromaGrid/ChromaGrid";
