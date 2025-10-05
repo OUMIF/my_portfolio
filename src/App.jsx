@@ -11,7 +11,6 @@ import ChromaGrid from "./components/ChromaGrid/ChromaGrid";
 import ProjectModal from "./components/ProjectModal/ProjectModal"; // <-- IMPORT MODAL
 import Aurora from "./components/Aurora/Aurora";
 import AOS from 'aos';
-import ChatRoom from "./components/ChatRoom";
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { Timeline, TimelineItem, TimelineConnector, TimelineHeader, TimelineIcon, TimelineBody, Typography } from "@material-tailwind/react";
 
@@ -101,7 +100,7 @@ function App() {
             <div className="flex items-center sm:gap-4 gap-2">
               <a 
                 href="./assets/CV.pdf" 
-                download="Faris_Edrik_Prayoga_CV.pdf" 
+                download="ElAdnani_ELMEhdi_CV.pdf" 
                 className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
               >
                 <ShinyText text="Download CV" disabled={false} speed={3} className="custom-class" />
@@ -117,8 +116,6 @@ function App() {
             <ProfileCard
               name="EL ADNANI EL "
               title="Software Engineer"
-              handle="farisedrikp"
-              status="Online"
               contactText="Contact Me"
               avatarUrl="./assets/newLanyard.png"
               showUserInfo={true}
@@ -210,7 +207,7 @@ function App() {
         {/* Proyek */}
         <div className="proyek mt-32 py-10" id="project" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"></div>
         <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Project</h1>
-        <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Showcasing a selection of projects that reflect my skills, creativity, and passion for building meaningful digital experiences.</p>
+        <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">A collection of projects that reflect my learning journey, creativity, and passion for developing useful and engaging digital solutions.</p>
         <div className="proyek-box mt-14" >
 
           <div style={{ height: 'auto', position: 'relative' }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true" >
@@ -244,15 +241,13 @@ function App() {
             data-aos-delay="300"
             data-aos-once="true"
           >
-            Get in touch with me or chat in real-time
+            Get in touch with me 
           </p>
 
           {/* Container dua kolom */}
           <div className="flex flex-col md:flex-row gap-8">
             {/* Chat Room di kiri */}
-            <div className="flex-1 bg-zinc-800 p-6 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
-              <ChatRoom />
-            </div>
+          
 
             {/* Contact Form di kanan */}
             <div className="flex-1">
