@@ -196,7 +196,7 @@ function App() {
                 name="EL ADNANI EL"
                 title="Software Engineer"
                 contactText="Contact Me"
-                avatarUrl="./assets/newLanyard.png"
+                avatarUrl="/newLanyard.png"
                 showUserInfo={true}
                 enableTilt={!isMobile}
                 enableMobileTilt={false}
