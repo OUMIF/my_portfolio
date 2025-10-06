@@ -193,7 +193,7 @@ function App() {
           <div className="md:ml-auto animate__animated animate__fadeInUp animate__delay-4s order-1 md:order-2 flex justify-center">
             <div className="w-full max-w-[280px] sm:max-w-md mx-auto">
               <ProfileCard
-                name="EL ADNANI EL"
+                name="EL ADNANI EL Mehdi"
                 title="Software Engineer"
                 contactText="Contact Me"
                 avatarUrl="/newLanyard.png"
