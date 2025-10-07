@@ -17,10 +17,13 @@ const Navbar = ({ hidden = false }) => {
     <nav className="navbar relative z-50 py-7 flex items-center justify-between px-6 md:px-12">
       {/* Logo */}
       <div className="logo">
-        <h1 className="text-3xl font-bold text-white p-1 md:bg-transparent md:text-white">
-          PORTFOLIO   {/* je voudrais faire un logo M a la place */}
-        </h1>
+        <img
+          src="/assets/MLo.png" // chemin vers ton image
+          alt="Logo M"
+          className="w-25 h-25" // taille du logo
+        />
       </div>
+
 
       {/* Menu */}
       <ul
