@@ -220,10 +220,10 @@ function App() {
                 </h2>
                 <div className="mb-6 sm:mb-10 space-y-4 sm:space-y-6">
                   {[
-                    "El Mehdi El Adnani – Full-Stack Developer | Java • Spring • AI",
-                    "Graduating Software Engineer bridging backend architecture and intelligent features. I build scalable microservices (backend & DevOps) and orchestrate AI agent workflows using CrewAI and n8n for intelligent automation.",
-                    "My approach: Clean code, scalable design, and features that users actually love.",
-                    "Open to opportunities where I can contribute to both technical excellence and product innovation."
+                    "Backend Engineer | Java + Spring Boot + AI Automation",
+                    "Final-year Software Engineering student building scalable microservices and intelligent workflows with CrewAI & n8n.",
+                    "Passionate about clean architecture, AI-powered automation, and solving real-world problems with code.",
+                    "Open for: Full-Stack/Backend roles "
                   ].map((paragraph, index) => (
                     isMobile ? (
                       <p 
